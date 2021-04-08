@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText etNumber,etPassword;
     Button btnEnter,btnSignUp;
+    private final int SIGNYP_ACTIVITY = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,com.atmostsoft.quiz1.SignUp.class);
-//                startActivityForResult(intent,ACTIVITY_SI);
+                startActivityForResult(intent,SIGNYP_ACTIVITY);
             }
         });
     }

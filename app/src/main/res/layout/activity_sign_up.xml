@@ -13,53 +13,41 @@
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="97dp">
 
-        <TextView
-            android:id="@+id/textView2"
+        <EditText
+            android:id="@+id/signUpName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_margin="20sp"
+            android:layout_marginTop="40sp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/signUpNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="@string/number"
+            android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/signUpPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20sp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20sp"
-            android:ems="10"
+            android:hint="@string/password"
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editTextTextPassword2"
+            android:id="@+id/signUpCPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
             android:ems="10"
+            android:hint="@string/cPass"
             android:inputType="textPassword" />
 
         <LinearLayout
@@ -69,14 +57,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/SignUpBack"
                 android:layout_width="0sp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/back" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/signupSubmit"
                 android:layout_width="0sp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
