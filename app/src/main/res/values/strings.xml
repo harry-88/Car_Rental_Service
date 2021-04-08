@@ -3,4 +3,7 @@
     <string name="number">Enter Number</string>
     <string name="Enter">Enter</string>
     <string name="password">Enter Password</string>
+    <string name="signup">Sign up</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
 </resources>
