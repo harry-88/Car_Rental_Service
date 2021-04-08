@@ -43,7 +43,9 @@ public class SignUp extends AppCompatActivity {
                         bufferedWriter.close();
                         fileWriter.close();
 
-                        Intent intent = new Intent(com.atmostsoft.quiz1.SignUp)
+                        Intent intent = new Intent(com.atmostsoft.quiz1.SignUp.this,com.atmostsoft.quiz1.StartScreen.class);
+                        startActivity(intent);
+                        finish();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
